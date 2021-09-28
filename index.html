@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<head>
+    <title>Eduardo's Web Page</title>
+    
+    <meta name="viewport" content="width=device-width, initial=scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css"/>
+
+</head>
+	
+	
+	<style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+
+            font-family: 'Quicksand', sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+
+            display: grid;
+
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 50px 1fr 1fr 100px;
+
+            gap: 10px;
+
+            padding: 1px;
+            box-sizing: border-box;
+        }
+
+        .container div {
+            padding: 10px;
+            border: 2px solid #000000;
+			background-color: rgb(8, 119, 216);
+			
+        }
+        
+
+        
+        .header {
+           grid-column-start: 1;
+           grid-column-end: 4; 
+		   background-color: aliceblue;
+        }
+
+        .content-large {
+            grid-row-start: 2;
+            grid-row-end: span 3;
+            grid-column-start: 1;
+            grid-column-end: 3;
+			background-color: aliceblue;
+        }
+
+        .footer {
+            grid-column: 1 / span 3;
+
+            grid-column-start: 1;
+            grid-column-end: 1 / span 3;
+			background-color: aliceblue;
+        }
+		
+        
+
+    </style>
+
+<body text="black">
+
+<body style="background-color:rgb(81, 109, 170);"></body>
+    <div class="container">
+        <div class="header"><center>Eduardo Rosado</center></div>
+        <div class="content-large">
+            <center><h5><p>Take vacations, go as many places as you can. You can always make money, you can't always make memories. </p></h5></center>
+            
+			<img src="beach.jpg" alt="beach" class="responsive" style="width:900px;height:200px;">
+            
+            
+
+            <hr class="doted">
+
+            <h5><p>The enjoyment of exploring new places.</p></h5>
+			<img src="hall.png" alt="hall" class="responsive" style="width:400px;height:290px;">
+            <img src="waterfall.jpg" alt="sky" class="responsive" ALIGN="top" style="width:400px;height:290px;">
+
+        </div>
+        <div class="content-small">About me:
+			<figure><img src="sun2.jpg" alt="Hall"  class="responsive" style="width:150px;height:200px;">
+				</figure>
+
+				<h5><p>My name is Eduardo and i was born in chicago. Im a laid back kind of guy. I like to draw, play video games and working out.
+                    Enjoy spending time with friends and family.
+                </p></h5>
+
+		</div>
+		
+        <div class="content-small">Interests:
+            <img src="crash.gif" ALIGN="top" alt="sky" class="responsive" style="width:200px;height:160px;">
+            
+
+			
+		</div>
+        
+			<div>
+                follow me:
+                <figure>
+                    <a href="https://www.facebook.com/CopyCAT50">
+                    <img src="facebook_logo.png" alt="facebook" style="width:42px;height:42px;">
+
+                    <a href="https://www.instagram.com/copycat50/">
+                    <img src="instagram-logo.png" alt="Instagram" style="width:42px;height:42px;">
+                </figure>
+			  </a>
+
+                        
+              
+		</div>
+
+			
+    </div>
+</body>

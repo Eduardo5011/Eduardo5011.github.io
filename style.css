@@ -1,0 +1,28 @@
+p {
+    background-color: rgb(54, 114, 170);
+}
+
+
+p {
+    color: rgb(25, 25, 31);  
+  }
+
+
+  h5 {
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+ 
+  img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  
+  
